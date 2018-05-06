@@ -5,8 +5,9 @@
 {
 	font-size: 50px;
 }*/
-.navbar{
-	float: left;
+body
+{
+	background-color: red !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -15,7 +16,101 @@
 
 }
 
-.navbar-collapse
+.container-fluid
 {
-	float: right !important;
+	background-color: pink;
+	margin: 0% 4% !important ;
 }
+
+.row2
+{
+	margin: 3% 2% 3% 2% !important;
+}
+.row2col1
+{
+	margin: 0% 4%!important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 25px;
+	font-weight: bold;
+	/*width: 23vw !important;*/
+
+}
+.row2col2
+{
+	margin: 0% 4% !important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 25px;
+	font-weight: bold;
+	/*width: 23vw !important;*/
+}
+.row2col3
+{
+	margin: 0% 4% !important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 25px;
+	font-weight: bold;
+	/*width: 23vw !important;*/
+}
+
+@media screen and (min-width: 900px) {
+    .row2col1 , .row2col2, .row2col3{
+        width: 23vw !important;
+    }
+}
+
+.row3col1
+{
+	margin: 0% 4% !important;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 12px;
+	text-align: left !important;
+	font-weight: bold;
+}
+
+.row3col2
+{
+	margin: 0% 4% !important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.row3col3
+{
+	margin: 0% 4% !important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 900px) {
+    .row3col1
+    {
+        width: 33vw !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .row3col2, .row3col3{
+        width: 18vw !important;
+    }
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
