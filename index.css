@@ -7,7 +7,7 @@
 }*/
 body
 {
-	background-color: red !important;
+	background-color: #0094ff !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -18,13 +18,27 @@ body
 
 .container-fluid
 {
-	background-color: pink;
+	background-color: transparent !important;
 	margin: 0% 4% !important ;
 }
 
-.row2
+.row1{
+	margin: 4% 4% !important;
+}
+.row1col1
 {
-	margin: 3% 2% 3% 2% !important;
+	margin: 0% 4% !important;
+	text-align: left;
+	padding: 2% 3%;
+	background-color: white;
+}
+
+.row1col2
+{
+	margin: 0% 4% !important;
+	text-align: center;
+	padding: 2% 3%;
+	background-color: transparent;
 }
 .row2col1
 {
@@ -66,8 +80,8 @@ body
 
 .row3col1
 {
-	margin: 0% 4% !important;
-	padding: 2% 3%;
+	margin: 1% 0% !important;
+	padding: 2% 1%;
 	background-color: white;
 	font-size: 12px;
 	text-align: left !important;
@@ -76,36 +90,41 @@ body
 
 .row3col2
 {
-	margin: 0% 4% !important;
-	text-align: center;
-	padding: 2% 3%;
+	margin: 1% 0% !important;
+	text-align: center !important;
+	padding: 2% 1%;
 	background-color: white;
-	font-size: 25px;
+	font-size: 12px;
 	font-weight: bold;
+	text-align: justify !important;
 }
 
 .row3col3
 {
-	margin: 0% 4% !important;
+	margin: 1% 0% !important;
 	text-align: center;
-	padding: 2% 3%;
+	padding: 2% 1%;
 	background-color: white;
-	font-size: 25px;
+	font-size: 12px;
 	font-weight: bold;
+	text-align: justify !important;
 }
 
 @media screen and (min-width: 900px) {
     .row3col1
     {
-        width: 33vw !important;
+        width: 36vw !important;
+        margin: 0% 4% !important;
     }
 }
 
 @media screen and (min-width: 900px) {
     .row3col2, .row3col3{
-        width: 18vw !important;
+        width: 16.5vw !important;
+        margin: 0% 4% !important;
     }
 }
+
 .dot {
     height: 5px;
     width: 5px;
@@ -114,3 +133,62 @@ body
     display: inline-block;
 }
 
+.row3-headings
+{
+	display: inline !important;
+	font-size: 15px;	
+}
+
+.row3-content
+{
+	padding-bottom: 10%;
+}
+
+.row4col1
+{
+	margin: 0% 0% !important;
+	text-align: center;
+	padding: 2% 1% !important;
+	background-color: white;
+	text-align: justify;	
+}
+
+.row4col2
+{
+	text-align: center;
+	padding: 2% 1% !important;
+	background-color: white;
+	text-align: justify;	
+}
+.row4col3
+{
+	text-align: center;
+	padding: 2% 1% !important;
+	background-color: white;	
+	text-align: justify;
+}
+.row4col4
+{
+	text-align: center;
+	padding: 2% 1% !important;
+	background-color: white;
+	text-align: justify;	
+}
+
+.row4-headings
+{
+	text-align: center !important;
+	font-size: 15px !important;
+	font-weight: bold;
+	padding: 2%;
+}
+
+.row2 , .row3, .row4
+{
+	margin: 4% 4% !important;
+}
+
+.img-responsive
+{
+	 margin: 1% auto;
+}
